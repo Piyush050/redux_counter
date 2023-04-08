@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button1, .button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0 20px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
